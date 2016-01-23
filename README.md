@@ -11,7 +11,8 @@ This portfolio is owned by Mikhael Willard R. Songco
   - I met Vin and Mel again. This time, I knew all too well who's the Knight and the Knave without remembering back then. 
   - I guess things may not look so dark for me after all.
   - Ah yes, the propositions and the truth tables. How many times do you see **p** and **q** in other Math subjects? Either way, these guys will save me a couple of times later on.
-  - Oh, and don't forget the connectives as well: ¬ for Negation, ∧ for **and**, ∨ for **or**,⊕ for  **xor**, → for **conditional** and ↔ for **biconditional**. Learn these and they will save my life.
+  - Oh, and don't forget the connectives as well: ¬ for Negation, ∧ for **and**, ∨ for **or**,⊕ for  **xor**, → for **conditional** and ↔ for **biconditional**.
+  - I need to learn all of these; they will save my life.
 
 ##WEEK 2:
 
