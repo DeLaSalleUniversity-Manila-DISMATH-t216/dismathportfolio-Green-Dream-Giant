@@ -142,4 +142,10 @@ You have to be careful with them, so far, they are the **most difficult** to und
 
 ##WEEK 4:
 
-Coming Soon
+Okay, this week he added a new method of proof and another topic that includes proving and other previous subjects.
+
+- Proof by Equivalence - To prove the biconditional statement premise, both P → Q and Q → P must be **TRUE** by using other proving methods.
+
+- **Mathematical Induction** - *Substitution (Basis Step)* + *Direct Proof (Inductive Step)*
+    - 1. Basis Step: P(0) or P(1) is shown to be True
+    - 2. Inductive Step: Use Direct Proof in order to justify P(0) or P(1)
