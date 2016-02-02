@@ -3,7 +3,7 @@ dismathportfolio-Green-Dream-Giant created by Classroom for GitHub
 
 This portfolio is owned by Mikhael Willard R. Songco
 
-(INCOMPLETE; STILL IN PROGRESS OF UPDATING)
+
 
 ##WEEK 1:
 
@@ -78,14 +78,68 @@ We started a very long proposition. That means there's a lot sentences where eve
 
 I need to understand and practice using logical equivalences because they are very tricky, and unless I understand them completely, I need to memorize the key concepts. I can simplify a logical statement using logical equivalences, as an alternative to the Truth table approach, but the problem is, **the shortcut is not always the shortcut**, mind you.
 
+- Different Types of Logical Equivalences:
+    - Identity laws
+    - Domination laws
+    - Idempotent laws
+    - Double negation law
+    - Commutative laws
+    - Associative laws
+    - Distributive laws
+    - De Morgan's laws
+    - Absorption laws
+    - Negation laws
+
+
 By the way, I did the Superman homework thing in class in fifteen minutes! Although I have miss some codes, I think I got it right, and I kind of made sure of that. (Note: Superman does not exist!)
 
 The quantifiers are next in my list that I really need to focus on right now, and these guys are quite hard and confusing, and if I don't understand their principles, I'm going to have a bad time! Hehehe...
 
-  - **I find the implication most confusing, especially when the expression is no longer "if p, then q"** . He's right about that one that he wrote onto the example READme file, because that is what I need to watch out for.
-  - My professor said that if I've read the book just this week, I'm in danger. 
-  - I don't think I am that much in danger, because I have read and practice some problems, but still, I have to be extremely cautious.
+- Quantifiers - It indicates the generality of the open sentence in which a variable occurs.
+    - Existential quantifier (∃x)Px - "there Exist"
+    - Universal quantifier (∀x)Px - "for All"
+
+I find the implication most confusing, especially when the expression is no longer "if p, then q".
+
+The rules of inference might be easy, but atm it is quite confusing, and they are the ones that I need to memorize in order to use this tool properly. This tool should be the one that I used on the Superman problem rather than the logical equivalence which took quite long.
+
+- Rules of Inference - Another set of tools use to proof if the statement is valid (Tautology) or not (Fallacy) by examining its premises.
+ 
+| Rules of Inference | Tautology | Name |
+| :---------: | :--------------: | :----------: |
+| p, p → q ∴ q | (p ∧ (p → q)) → q | Modus ponens |
+| ¬q, p → q ∴ ¬p | (¬q ∧ (p → q))→¬p | Modus tollens |
+| p → q, q → r ∴ p → r | ((p → q) ∧ (q → r)) → (p → r) | Hypothetical syllogism |
+| p ∨ q, ¬p ∴ q | ((p ∨ q)∧¬p) → q | Disjunctive syllogism |
+| p ∴ p ∨ q | p → (p ∨ q) | Addition |
+| p ∧ q ∴ p | (p ∧ q) → p | Simplification |
+| p, q ∴ p ∧ q | ((p) ∧ (q)) → (p ∧ q) | Conjuction |
+| p ∨ q, ¬p ∨ r ∴ q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | Resolution |
+
+My professor said that if I've read the book just this week, I'm in danger. but I don't think I am that much in danger, because I have read and practice some problems, but still, I have to be extremely cautious.
 
 ##WEEK 3:
 
-COMING SOON!
+Our professor teaches us the method of proving, the core prime of the subject, and one of the most confusing and difficult to understand and use. This is because it requires heavy algebra and there's no formal or direct indicator of what previous tools to use.
+
+Here are the different **Methods of PROOF**:
+- Direct Proof
+    - 1. Assume *p* is **TRUE**
+    - 2. **Show** that *q* is also True (using no. 1)
+- Proof By Contrapostion
+    - 1. Assume *¬q* is **TRUE**
+    - 2. **Show** that *¬p* is also True
+- Vacuous and Trivial Proof
+    - 1. Show that *p* is *False* or *q* is *True* 
+    - 2. p → q must be *True*
+    - Vacuous (FF, FT, TT) Trivial
+       - Note: Only use Vacuous or Trivial if and only if one of them is certain.
+- Proof by Contradiction
+    - Show that *assuming ¬p is true* leads to a **Contradiction**.
+       - Note: Always know the meaning and priciples of the statement before prroving it with a contradiction.
+
+You have to be careful with them, so far, they are the **most difficult** to understand and use. I need to learn and practice with them vigorously in order for me to use them properly.
+
+##WEEK 4:
+
+Coming Soon
