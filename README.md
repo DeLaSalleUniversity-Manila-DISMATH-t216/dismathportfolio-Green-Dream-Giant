@@ -149,3 +149,5 @@ Okay, this week he added a new method of proof and another topic that includes p
 - **Mathematical Induction** - *Substitution (Basis Step)* + *Direct Proof (Inductive Step)*
     - 1. Basis Step: P(0) or P(1) is shown to be True
     - 2. Inductive Step: Use Direct Proof in order to justify P(0) or P(1)
+
+AND THATS IT! IT'S THE END OF QUIZ ONE TOPICS. Recursion/Induction in now the next topic for Quiz two and I need to review ALL of this before **FEB 13, 2016**.
