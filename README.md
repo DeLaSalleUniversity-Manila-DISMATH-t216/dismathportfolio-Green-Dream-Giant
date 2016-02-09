@@ -200,7 +200,9 @@ Definition of an **Algorithm**
 Different types of *Hoare Triple*: (Rules of inference)
 
 p{S1}q
+
 q{S2}r
+
 :. p{S1;S2}r
 
 - Conditional Statements
