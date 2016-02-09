@@ -3,6 +3,9 @@ dismathportfolio-Green-Dream-Giant created by Classroom for GitHub
 
 This portfolio is owned by Mikhael Willard R. Songco
 
+**REMINDER**: PLEASE PUT EXAMPLES ON EVERY TOPIC DISCUSSED IN ORDER TO UNDERSTAND FURTHER THE PROBLEM!
+(Incomplete)
+
 
 
 ##WEEK 1:
@@ -142,12 +145,64 @@ You have to be careful with them, so far, they are the **most difficult** to und
 
 ##WEEK 4:
 
-Okay, this week he added a new method of proof and another topic that includes proving and other previous subjects.
+Okay, this week he added a new method of proof and another two topics that includes proving and other previous subjects.
 
 - Proof by Equivalence - To prove the biconditional statement premise, both P → Q and Q → P must be **TRUE** by using other proving methods.
+    - (p ↔ q) ↔ [(p → q) ∧ (q → p)]
 
 - **Mathematical Induction** - *Substitution (Basis Step)* + *Direct Proof (Inductive Step)*
     - 1. Basis Step: P(0) or P(1) is shown to be True
     - 2. Inductive Step: Use Direct Proof in order to justify P(0) or P(1)
+    - **Examples**
+
+- **Recursive/Inductive Definition** - *Substitution (Basis Step)* + *Recursive Step*
+    - 1. Basis Step: P(0) or P(1) is shown to be True
+    - 2. Recursive Step: Give a rule for finding its value at an integer from its original statement
+    - **Examples**
 
 AND THATS IT! IT'S THE END OF QUIZ ONE TOPICS. Recursion/Induction in now the next topic for Quiz two and I need to review ALL of this before **FEB 13, 2016**.
+
+##WEEK 5:
+
+We continued discussing Recursions, or at least Recursive Definition, and gave us a lot of example as the funtion reffered to its original statement in order to find the value that was looking for. In this week, we were tackling now about algorithms (w/ a little programming), from Recursion Algorithm to Partial Correctness (Feb 9).
+
+Definition of an **Algorithm**
+ - A finite set of precise instructions for perfoming a computation/solving a problem.
+ 
+ - Recursive Algorithm - An algorithm is called recursive if it solves a problem by reducing it to an instance of the same problem with a smaller input.
+    - **Examples**
+       - What is the recursive definition for *computing* n! ?
+       - Give a recursive algorithm for computing a^n, where: a = nonzero Real number ; n = nonnegative Integer.
+
+ **Program Correctedness** (for programming)
+  - We need a proof to show that the program always gives the correct output (by Program Verification)
+     - P(x) = "correct output"
+     - x = input
+     - (∀x)P(x) ≡ T
+
+*Program Verification*
+ - 1. Show that the correct answer is obtained if the program terminates. (**Partial Correctedness/Substitution**)
+ - 2. Show that the program is true by proving. (Higher/Advanced Course)
+
+ - **Partial Correctness**
+    - 1. Initial assertion p,
+    - 2. Final assertion q,
+
+ - *Hoare Triple*: p{S}q, where;
+    - **p** is the initial assertion
+    - **{S}** is the program segment
+    - **q** is the final assertion
+    - Similar to *Direct Proof*
+       - 1. Assume p is True
+       - 2. Substitute p to the program S, showing q is **T**
+    - **Examples**
+
+Different types of *Hoare Triple*: (Rules of inference)
+
+p{S1}q
+q{S2}r
+:. p{S1;S2}r
+
+- Conditional Statements
+   - 1. p ∧ (condition) {S} q, where p & (condition) ≡ T
+   - 2. p ∧ ¬(condition) → q, where p ≡ T, and ¬(condition) should be True
