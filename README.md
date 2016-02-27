@@ -320,6 +320,7 @@ Range: int floor (int → ℤ) ℤ
     - One-to-one and Onto (Bijection)
 
 THE SUBMISSION OF THE "PROJECT, 0-0 (Individual)" IS DUE ON **MARCH 1, 2016**
+
 That means I have to install the MIT App Inventor on my computer and use my DLSU Gmail account. The instructions are here: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/DISMATH_MIT_App_Inventor and here: http://appinventor.mit.edu/explore/ai2/windows.html
 
 ##Week 7
