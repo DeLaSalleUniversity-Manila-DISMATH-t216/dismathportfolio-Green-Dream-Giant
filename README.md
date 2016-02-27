@@ -160,8 +160,6 @@ Okay, this week he added a new method of proof and another two topics that inclu
     - 2. Recursive Step: Give a rule for finding its value at an integer from its original statement
     - **Examples**
 
-AND THATS IT! IT'S THE END OF QUIZ ONE TOPICS. Recursion/Induction in now the next topic for Quiz two and I need to review ALL of this before **FEB 13, 2016**.
-
 ##WEEK 5:
 
 We continued discussing Recursions, or at least Recursive Definition, and gave us a lot of example as the funtion reffered to its original statement in order to find the value that was looking for. In this week, we were tackling now about algorithms (w/ a little programming), from Recursion Algorithm to Partial Correctness (Feb 9).
@@ -195,7 +193,21 @@ Definition of an **Algorithm**
     - Similar to *Direct Proof*
        - 1. Assume p is True
        - 2. Substitute p to the program S, showing q is **T**
-    - **Examples**
+    - **Example**
+
+Given the initial assertion p: x:=1 and the final assertion q: z:=3, show the partial correctness of the program segment
+y = 2
+z = x + y
+
+1. Assume p ≡ T  (x = 1) T
+2. Substitue p to the program
+
+(x = 1) {y = 2, z = x +y} (z = 3?)
+
+          z = 1 + 2
+          z = 3
+          
+     Therefore Partially Correct
 
 Different types of *Hoare Triple*: (Rules of inference)
 
@@ -206,5 +218,110 @@ q{S2}r
 :. p{S1;S2}r
 
 - Conditional Statements
-   - 1. p ∧ (condition) {S} q, where p & (condition) ≡ T
-   - 2. p ∧ ¬(condition) → q, where p ≡ T, and ¬(condition) should be True
+    - 1. p ∧ (condition) {S} q, where p & (condition) ≡ T
+    - 2. p ∧ ¬(condition) → q, where p ≡ T, and ¬(condition) should be True
+    - **Example:**
+   
+I was absent when my proffesor teach lessons about Power Series, Sets and its Operations. So I would try to learn and study them as best as I could it order for me to get them. Also, the learnings stated about it will have less content compared to the other lessons I have learned having more contents. So I'll try my best to learned from tell as I go on typing them here.
+
+**Power Series**
+
+- Where a0, a1, a2, . . . is a given sequence of constants, and x is a real variable
+- Can be thought of as a function of x that is defined inside the interval of convergence. Not all functions can be expressed as power series, but most common and useful functions can.
+
+AND THATS IT! IT'S THE END OF QUIZ ONE TOPICS. Recursion/Induction in now the next topic for Quiz two and I need to review ALL of this before **FEB 19, 2016**.
+
+Introduction to **Sets**
+
+- A *set* is an unordered collection of distinct objects, which may be anything(including other sets).
+- {a, b, c} = {b, a, c} = {a, a, b, b, b, c}
+
+- **Empty Set**
+    - The *empty set* contains no elements
+    - {} or ∅ (Note: {} is not equal to {∅})
+
+- **Membership** - a ∈ {a, b, c, d}
+   
+- **Set Builder Notation**
+    - {x|some property x satisfies}
+     - The set of all x/where/ **"**
+    - Examples:
+       - {r|r ∈ ℝ and r<137}
+       - {n|n is an even natural number}
+       - {S|S is a set of US currency}
+       - {a|a is cute animal}
+
+- **Venn Diagrams**
+    - Union - A ∪ B
+    - Intersection - A ∩ B
+    - Difference (Complementary) - A-B, A\B, B'
+    - Symmetric Difference - A △ B
+
+- **Set Identities**
+    - Identity Law
+    - Domination Law
+    - Idempotent Law
+    - Complementation Law (Double Negation)
+    - Commutative Law
+    - Associative Law
+    - Distributive Law
+    - De Morgan's Law
+    - Absorbtion Law
+    - Complement Law (Negation)
+
+ - **Subsets**
+    - A set S is a subset of a set T (denoted S ⊆ T) if all elements of S are also elements of T.
+    - Examples:
+       - {1, 2, 3} ⊆ {1, 2, 3, 4}
+       - ℕ ⊆ ℤ (every natural number is an integer)
+       - ℤ ⊆ ℝ (every integer is a real number)
+
+ - **Power Set** - ℘(S), P(S), ℙ(S) = {*T*|*T* ⊆ S}
+
+##Week 6:
+
+This week, we have some sort of continuation to Sets lessons, which is called Cardinality, and a new topic about Functions.
+
+**Cardinality**
+ - The number of elements it contains
+ - If S is a set, we denote its cardinality by writing |S|
+ - Examples:
+   - |{a, b, c, d, e}| = 5
+   - |{{a, b}, {c, d, e, f, g}, {h}}| = 3
+   - |{1, 2, 3, 3, 3}| = 3
+   - |{n ∈ N| n < 137}| = 137 (Zero is counted)
+   
+   - |N| = ℵ₀ (Aleph-zero, aleph-naught, "infinity")
+   - |Even| = ℵ₀
+   - |ℤ| = ℵ₀
+
+**Function**
+ - Let A & B be sets. A function f from A to B is an assignment of **exactly one** element of B to each element of A
+ - We write f: A → B or f: A to B (Note: **to** is not an implication)
+    - A for domain
+    - B for Co-Domain (Can be called as **Range** when a particular subset B is connected from set A)
+ - Image:
+ 
+ - Examples:
+
+f(x) = x^2 (Domain
+x ∈ ℤ
+f: ℤ to ℤ+ (Co-domain; not shown)
+"Perfect Square" (Range; not shown)
+
+int floor (float x) {
+  }
+Domain: float x (float → ℝ) ℝ
+Range: int floor (int → ℤ) ℤ
+
+ - Types of Function:
+    - One-to-One (Injective) - ∀x∀y(f(x)=f(y) → x=y) and ∀x∀y(x≠y → f(x)≠f(y))
+    - Onto (Surjective) Range = Co-domain (and must be filled)
+    - One-to-one and Onto (Bijection)
+
+THE SUBMISSION OF THE "PROJECT, 0-0 (Individual)" IS DUE ON **MARCH 1, 2016**
+That means I have to install the MIT App Inventor on my computer and use my DLSU Gmail account. The instructions are here: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/DISMATH_MIT_App_Inventor and here: http://appinventor.mit.edu/explore/ai2/windows.html
+
+##Week 7
+
+(To be continued)
