@@ -325,4 +325,19 @@ That means I have to install the MIT App Inventor on my computer and use my DLSU
 
 ##Week 7
 
-(To be continued)
+**Algorithm**
+
+ - A finite set of precise instructions for performing a computation or for solving a problem
+ - Example - Describe an algorithm for finding the maximum (largest) value in a finite sequence of integers
+ 
+ - **Pseudocode** - A detailed step in the process of developing an algorithm
+
+ - **Searching Algorithms**
+    - The problem of locating an element in an ordered list
+    - Locate an element x in a list of distinct elements a1, a2,..,an, or determine that is is not in the list
+    
+    - Types of Searching Algorithms:
+       - Linear Algorithm
+       - Binary Algorithm
+ 
+ *To be continued...*
