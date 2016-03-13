@@ -323,7 +323,7 @@ THE SUBMISSION OF THE "PROJECT, 0-0 (Individual)" IS DUE ON **MARCH 1, 2016**
 
 That means I have to install the MIT App Inventor on my computer and use my DLSU Gmail account. The instructions are here: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/DISMATH_MIT_App_Inventor and here: http://appinventor.mit.edu/explore/ai2/windows.html
 
-##Week 7
+##Week 7:
 
 **Algorithm**
 
@@ -401,13 +401,71 @@ That means I have to install the MIT App Inventor on my computer and use my DLSU
            9.  loc = i
            10. else loc = -1
  
-##Week 8
+##Week 8:
+
+This is a continuation from the topic we have discussed last week. Here are more examples of the algorithms that are needed to be thoroughly remembered and understand in order to figure out the specific procedures.
 
  - **Sorting Algorithms** - The algorithm of putting elements in increasing (or decreasing) order
-    - Bubble Sort
-    - Insortion Sort
+
+Bubble Sort
+
+          Procedure: Bubble Sort
+          Input: {a1, a2, ..., ai, ..., an}
+          Output: (x1, x2, ..., xi, ..., xn)
+                   x1 < x2 < ... < xn
+ 
+          1. for j: 1 to n-1
+          2.   for i: 1 to n-j
+          3.       if (ai > ai + 1)
+          4.         swap (ai, ai + 1)
+          OR basically what it means:
+          [temp = ai]
+          [ai = ai + 1]
+          [ai + 1 = temp]
+
+
+Insertion Sort
+
+          Procedure: Insertion Sort
+          Input: {a1, a2, ..., ai, ..., an}
+          Output: (x1, x2, ..., xi, ..., xn)
+                   x1 < x2 < ... < xn
+
+          1. for j = 2 to n
+          2. {
+          3. i = 1
+          4.   while aj > ai
+          5.     i = i + 1
+          6.     m = aj
+          7.     for k = 0 to j – i – 1
+          8.       aj–k = aj–k–1
+          9.      ai = m
+          10. }
+
 
  - **Greedy Algorithm** - Selects the best choice at each step, instead of considering all sequences of steps that may lead to an optimal solution
 
+Example: Find a change and number of coins for 68 cents.
+
+P, N, P, Q
+1, 1, 1, 2
+
+Denomination:
+
+C = { 25, 10, 5, 1}
+x = amount
+
+          Procedure: Greedy Algorithm
+          Input: C = { 25, 10, 5, 1}, which is {c1, c2, ..., ci, ..., cn}
+                 x: amount
+          Output: number of coins, n
+
+          1. n = 0
+          2. for i: 1 to 4 (or any var)
+          3.    while (x ≥ ci)
+          4.      x = x - ci
+          5.      n = n + 1
+
+##WEEK 9:
 
 *To be continued...*
