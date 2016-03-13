@@ -330,6 +330,28 @@ That means I have to install the MIT App Inventor on my computer and use my DLSU
  - A finite set of precise instructions for performing a computation or for solving a problem
  - Example - Describe an algorithm for finding the maximum (largest) value in a finite sequence of integers
  
+    Procedure: Find Max
+    Input: {a1, a2, ..., ai, ..., an}
+    Output: maximum, max
+
+          1. max = a1
+          2. for i: 2 to n
+          3.     if (max < ai)
+          4.         max = ai
+
+ - **Preconditions** - Statements that describe valid input
+    - Ex: (a1, a2, : : :, an) ∈ ℤ
+ - **Postconditions** - Conditions that the ouput should satisfy when the program has run
+    - Ex: Output: max is the largest element
+
+ - Properties of Algorithm:
+    - Input - An algorithm has input values from a specified set (set for the *Precondition*)
+    - Output - From each set of input values an algorithm produces output values from a specified set (set for the *Postcondition*)
+    - Definiteness - The steps of an algorithm must be defined precisely
+    - Correctness - An algorithm should produce the correct output values for each set of input values
+    - Finiteness - An algorithm should produce the desired output after a finite number of steps
+    - Generality - The procedure should be applicable for all problems of the desired form, not just for a particular set of input
+ 
  - **Pseudocode** - A detailed step in the process of developing an algorithm
 
  - **Searching Algorithms**
@@ -337,7 +359,55 @@ That means I have to install the MIT App Inventor on my computer and use my DLSU
     - Locate an element x in a list of distinct elements a1, a2,..,an, or determine that is is not in the list
     
     - Types of Searching Algorithms:
-       - Linear Algorithm
-       - Binary Algorithm
+
+ Linear Algorithm
+
+          Procedure: Linear Search
+          Input: {a1, a2, ..., ai, ..., an}
+                 (x: searched element)
+          Output: location, loc
+                   {1, ..., n}
+                   { = -1 if not found}
+
+           1. loc = -1
+           2. for i: 1 to n
+           3.     if (x==ai)
+           4.         loc = i
+           
+           OR
+          
+           1. i = 1
+           2. while (i ≤ n ∧ x ≠ y)
+           3.        i = i + 1
+           4. if (i ≤ n)
+           5.     loc = i
+           6. else loc = -1
+
+ Binary Algorithm
  
- *To be continued...*
+           Procedure: Binary Search
+           Input: {a1, a2, ..., ai, ..., an}
+                   (x: searched element)
+           Output: location, loc
+ 
+           1. i = 1
+           2. j = n
+           3. while ( i < j) {
+           4.        mid = (i + j)/2
+           5.        if (x > mid)
+           6.            i = mid + 1
+           7.        else j = mid }
+           8.  if (x==ai)
+           9.  loc = i
+           10. else loc = -1
+ 
+##Week 8
+
+ - **Sorting Algorithms** - The algorithm of putting elements in increasing (or decreasing) order
+    - Bubble Sort
+    - Insortion Sort
+
+ - **Greedy Algorithm** - Selects the best choice at each step, instead of considering all sequences of steps that may lead to an optimal solution
+
+
+*To be continued...*
