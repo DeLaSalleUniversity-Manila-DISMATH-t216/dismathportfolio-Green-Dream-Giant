@@ -278,7 +278,7 @@ Introduction to **Sets**
 
  - **Power Set** - ℘(S), P(S), ℙ(S) = {*T*|*T* ⊆ S}
 
-##Week 6:
+##WEEK 6:
 
 This week, we have some sort of continuation to Sets lessons, which is called Cardinality, and a new topic about Functions.
 
@@ -323,7 +323,7 @@ THE SUBMISSION OF THE "PROJECT, 0-0 (Individual)" IS DUE ON **MARCH 1, 2016**
 
 That means I have to install the MIT App Inventor on my computer and use my DLSU Gmail account. The instructions are here: https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/DISMATH_MIT_App_Inventor and here: http://appinventor.mit.edu/explore/ai2/windows.html
 
-##Week 7:
+##WEEK 7:
 
 **Algorithm**
 
@@ -401,7 +401,7 @@ That means I have to install the MIT App Inventor on my computer and use my DLSU
            9.  loc = i
            10. else loc = -1
  
-##Week 8:
+##WEEK 8:
 
 This is a continuation from the topic we have discussed last week. Here are more examples of the algorithms that are needed to be thoroughly remembered and understand in order to figure out the specific procedures.
 
