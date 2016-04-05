@@ -495,6 +495,127 @@ E = {...} ( G is not connected therefore not included in the edges)
 
 Basic Terminology:
 
- - T
+ - The degree of a vertex in an udirected graph is the number of edges incident with it, except that a loop at a vertex contributes twice to the degree of that vertex.
+
+Handshaking Theorem:
+
+ - Let G = (V, E) be an undirected graph with e edges, then
+    - 2e = ∑deg(v), where
+        - v = vertices
+        - deg = degrees of the vertices
+        - e = edges
+
+Example: How many edges are there in the graph with 10 vertices each of degree six?
+
+          2e = ∑deg(v)
+          2e = 6(10)
+          2e = 60
+          e = 30
+       There are total of 30 edges in the graph with 10 vertices with a degree of 6 each.
+
+
+- A subgraph of a graph G = (V, E) is a graph H = (W, F), where W ⊆ V and F ⊆ E. A subgraph H of G is a proper subgraph of G if H ≠ G.
+- Example: 
+
+G1 subgraph G
+
+G = {V, E}
+G1 = {G1, E1}
+
+V1 ⊆ V
+E1 ⊆ E
+
+V1 = {G, J}
+E1 = {(G, J), (J,G)}
+
+- The Union of the two simple graphs G1 = (V1, E1) and G2 = (V2, E2) is the simple graph with the vertex set V1 ∪ V2 and the edge set E1 ∪ E2.
+
+
+
+- The Intersection of the two simple graphs G1 = (V1, E1) and G2 = (V2, E2) is the simple graph with the vertex set V1 ∩ V2 and the edge set E1 ∩ E2.
+
+
+
+**Paths(Route)**
+
+- A path is a sequence of edges the begins on one vertex.
+
+Euler Circuit and Paths:
+
+- Euler Circuit
+    - Covers all the **edges** by crossing the path once and only once; begins and ends with the same vertex.
+    - All vetices(nodes) have **even** degrees.
+- Euler Path
+    - Covers all the **edges** by crossing the path once and only once; starts at one vertex but ends on a different vertex.
+    - **Exactly two** vertices(nodes) have **odd** degrees.
+
+Examples:
+
+G1 = Euler Path
+G2 = Euler Path
+G3 = None
+
+Hamilton Paths and Circuits:
+
+- Hamilton Circuit
+    - Covers all the **vertices** by crossing the path once and only once; begins and ends with the same vertex.
+    - (It is usually found on closed circuits)
+- Hamilton Path
+    - Covers all the **vertices** by crossing the path once and only once; starts at one vertex but ends on a different vertex.
+    - (It is possible if the circuit is open; it can have a pendant)
+
+**Matrices of Graphs**
+
+ai = 
+- **1** if (vi, vj) has a connection
+- **0** if otherwise
+
+Example:
+
+
+
+
+Matrix
+
+0 1 1 1
+1 0 1 0
+1 1 0 0
+1 0 0 0
+
+**Isomorphism of Graphs** 
+
+- Graph G = Graph H
+- If and only if V1 = V2 and E1 = E2 by connection or pinpointing the location each of the vertices
+- They should have the same number of vertices and edges
+
+Example:
+
+
+
+
+
+G = H
+U1 <=> V1
+U2 <=> V4
+U3 <=> V3
+U4 <=> V2
+
+
+**Planar Graphs**
+
+(Untangle the rope)
+
+- No edges and vertices should cross or intersect
+- The **tangles** can be removed
+
+- Kuratowski's Theorem:
+    - The graph is non-planar if the subgraph of the graph is K5 or K3,3
+
+**Euler's Formula:**
+
+       r = e - v + 2
+
+
+##WEEK 10:
 
 *To be continued...*
