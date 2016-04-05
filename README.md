@@ -468,4 +468,33 @@ x = amount
 
 ##WEEK 9:
 
+**Graph Theory**
+
+- Graphs - Discrete structures consisting of vertices and edges that connect these vertices.
+
+Example:
+
+
+
+ - A graph G = (V, E)  consist of V, a nonempty set of vertices (or nodes), and R, a set of edges. Each edge has either one or two verices associated with it, called its endpoints.
+ 
+Using the example above:
+
+G = (V, E)
+V = {L, R, I, O}
+E = {(L, R), (L, I), (I, O), (O, R), (I, R)}
+
+Example 2:
+
+
+
+
+G = (V, E)
+V = {L, R, I, *G*}
+E = {...} ( G is not connected therefore not included in the edges)
+
+Basic Terminology:
+
+ - T
+
 *To be continued...*
