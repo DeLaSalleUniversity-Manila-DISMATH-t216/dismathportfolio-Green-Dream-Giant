@@ -2,8 +2,8 @@
 dismathportfolio-Green-Dream-Giant created by Classroom for GitHub
 
 
-This portfolio is owned by Mikhael Willard R. Songco
-- From section EK
+This portfolio is owned by **Mikhael Willard R. Songco**
+- **From section EK**
 
 
 **REMINDER**: PLEASE PUT EXAMPLES ON EVERY TOPIC DISCUSSED IN ORDER TO UNDERSTAND FURTHER THE PROBLEM!
